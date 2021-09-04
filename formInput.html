@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="input.css" type="text/css">
+    <title>Create Account</title>
+    <link rel="shortcut icon" type="png" href="./icon.png">
+  </head>
+  <body>
+    <!-- <center>
+      <h1>SIGNIN</h1>
+    </center> -->
+    <form class="" action="database.php" method="POST">
+        <div class="form-inputs">
+          <label for="gender">Gender</label>
+          <input type="radio" name="gender" id="" value="M" required><span>Male</span> &nbsp; &nbsp; &nbsp;&nbsp;
+          <input type="radio" name="gender" id="" value="F" required><span>Female</span>
+           
+          <br>
+
+          <label for="fname">First Name:</label>
+          <input type="text" name="fname" required>
+          <br>
+
+          <label for="lname">Last Name:</label>
+          <input type="text" name="fname" required>
+
+          <br>
+
+          <label for="tel">Phone Number:</label>
+          <input type="text" name="tel" required>
+
+          <br>
+
+          <label for="email">Student_Email:</label>
+          <input type="email" name="email" id="" placeholder="example@student.kca.ke" required>
+
+
+          <br>
+          <label for="options">Programme:</label>
+          <select name="options" id="options" required> 
+            <option value="" selected hidden>[ Select One ]</option>
+            <option value="Economics" selected hidden>Economics</option>
+            <option value="Bsc Pharmacy">Bsc Pharmacy</option>
+            <option value="Cyber-Security">Cyber-Security</option>
+            <option value="Software Development">Software Development</option>
+            <option value="Applied Computing">Applied Computing</option>
+            <option value="Mass Communication">Mass Communication</option>
+            <option value="Bs Law">Bs Law</option>
+          </select>
+
+          <br>
+
+          <label for="centreOptions">Centre:</label>
+          <select name="" id="centreOptions" required>
+            <option value="" selected hidden>[ Select One ]</option>
+            <option value="LSK" selected hidden>LSK</option>
+            <option value="Medicine">Medicine</option>
+            <option value="COB">COB</option>
+            <option value="COT">COT</option>
+      
+          </select>
+          <br>
+
+          <label for="res_address" id="address">Residense Address:</label>
+          <textarea name="res_address" id="" cols="30" rows="2" required></textarea>
+
+          <br>
+
+          <div class="btn">
+            <input type="submit" name="btn" value="Add Student">
+          </div>
+
+        </div>
+
+
+     
+
+    </form>
+  </body>
+</html>
